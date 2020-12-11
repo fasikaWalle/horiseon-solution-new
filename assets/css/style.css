@@ -1,0 +1,155 @@
+    /*-----------------basic setup-----------------*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: #fff;
+        background-color: #e6e6e6;
+    }
+    
+    section {
+        padding: 20px 0;
+    }
+    
+    header.footer {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*-----------------headings-------------------*/
+    
+    h1,
+    h2,
+    h3 {
+        text-transform: capitalize;
+    }
+    
+    h1 {
+        float: left;
+        font-size: 50px;
+        padding: 10px 40px;
+    }
+    
+    h2 {
+        margin-bottom: 20PX;
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /*-----------------header-------------------*/
+    
+    header {
+        background-color: #20638f;
+        height: 12vh;
+    }
+    
+    header div span {
+        color: #ddd;
+    }
+    
+    header div nav {
+        float: right;
+        padding: 30px 40px;
+    }
+    
+    header div nav ul {
+        list-style: none;
+    }
+    
+    header div nav ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    header div nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: capitalize;
+    }
+    /*-----------------hero section-------------------*/
+    
+    .hero-section {
+        background-image: url("images/digital-marketing-meeting.jpg");
+        height: 110vh;
+        background-size: cover;
+        background-position: center;
+    }
+    /*-----------------main section-------------------*/
+    /*-----------article-----------*/
+    
+    .main-article {
+        float: left;
+        width: 75%;
+        margin-right: 20px
+    }
+    
+    .main-article div {
+        width: 100%;
+        margin-left: 20px;
+        background-color: #0068aa;
+        padding: 40px 40px;
+        margin-bottom: 20px;
+        overflow: auto;
+    }
+    
+    .main-article div img {
+        max-width: 300px;
+    }
+    
+    .float-left {
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .float-right {
+        float: right;
+        margin-left: 30px
+    }
+    
+    .main-article div p {
+        display: inline;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    /*-----------aside-----------*/
+    
+    .main-aside {
+        width: 20%;
+        float: right;
+        margin-right: 20px;
+        padding: 20px 20px;
+        background-color: #2893cb;
+    }
+    
+    .main-aside div {
+        margin-bottom: 10px;
+    }
+    
+    .main-aside div img {
+        width: 150px;
+    }
+    
+    .main-aside div p {
+        font-size: 16px;
+    }
+    /*-----------------footer-------------------*/
+    
+    footer {
+        padding: 20px;
+        clear: both;
+        color: #333333;
+    }
+    
+    footer div {
+        text-align: center;
+        padding: 20px 0;
+    }
